@@ -1,0 +1,400 @@
+/***********************************/
+/**** Simple Text Plugin Styles ****/
+/***********************************/
+
+h2#header_1 {
+	margin-bottom: 15px;
+}
+img.rs_image_right {
+	float: right;
+}
+img.rs_image_left {
+	float: left;
+}
+.underline {
+	text-decoration: underline;
+}
+#editor div.form_action {
+	display: none;
+}
+#content_inner_wrapper .clickable {
+	z-index: 500 !important;
+	color: #2d2dda !important;
+	background: #dbddbd url(/plugins/simple_text/check.gif) top left repeat !important;
+}
+/***************************************************/
+/************** Template Styles ********************/
+/******** Generic selectors first ******************/
+/***************************************************/
+/*.large_image {
+	width: 200px;
+	height: 200px;
+}
+.small_image {
+	width: 100px;
+	height: 100px;
+}*/
+.float_right {
+	float: right;
+}
+.float_left {
+	float: left;
+}
+.clear_left {
+	clear: left;
+}
+.clear_right {
+	clear: right;
+}
+.clear_both {
+	clear: both;
+}
+.large_image_column {
+	width: 220px;
+}
+.small_image_column {
+	width: 120px;
+	margin: 0 20px;
+}
+#image_row_bottom, #image_row_top, h2.copy_heading {
+	clear: both;
+}
+/****************************************************/
+/************* Gallery Images Left ******************/
+/** all selectors must descend from div#template_1 **/
+/****************************************************/
+div.gallery_section {
+	margin: 20px 0;
+	clear: both;
+	min-height: 130px;
+	height: auto !important;
+	height: 130px;
+	overflow: hidden;
+}
+div.image_left {
+	float: left;
+	width: 25%;
+	margin-right: 20px;
+}
+div.image_left img {
+	margin-left: 20px;
+}
+div.text_right {
+	float: left;
+	width: 65%;
+	min-height: 106px;
+	height: auto !important;
+	height: 106px;
+	overflow: hidden;
+}
+#content div.text_right h3 {
+	padding: 3px 0 0;
+	background: none;
+}
+/****************************************************/
+/************* Gallery Images Right *****************/
+/** all selectors must descend from div#template_2 **/
+/****************************************************/
+div.image_right {
+	float: right;
+	width: 25%;
+	margin-right: 60px;
+	display: inline;
+}
+div.image_right img {
+	margin-left: 20px;
+}
+#content div.text_left {
+	float: right;
+	width: 60%;
+	text-align: right;
+}
+#content div.text_left h3 {
+	padding: 3px 0 0;
+	background: none;
+}
+/****************************************************/
+/************* Gallery Images Bottom *****************/
+/** all selectors must descend from div#template_3 **/
+/****************************************************/
+#template_3 #header_1 {
+	margin-bottom: 10px;
+}
+#template_3 div.gallery_section_vert {
+	/*width: 162px;*/
+	width: 28%;
+	height: 250px;
+	overflow: hidden;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+#content #template_3 h3 {
+	display: inline;
+	}
+div.image_bottom img {
+	width: 100px;
+	margin: auto;
+	display: block;
+}
+div.text_top {
+	height: 123px;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+#content div.text_top h3 {
+	padding: 3px 0 0;
+	background: none;
+}
+/****************************************************/
+/************** Gallery Images Top ******************/
+/** all selectors must descend from div#template_4 **/
+/****************************************************/
+#template_4 #header_1 {
+	margin-bottom: 40px;
+}
+#template_4 div.gallery_section_vert {
+	/*width: 162px;*/
+	width: 28%;
+	height: 250px;
+	overflow: hidden;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	display: inline;
+}
+#content #template_4 h3 {
+	display: inline;
+	}
+div.image_top img {
+	width: 100px;
+	margin: auto;
+	display: block;
+}
+div.text_bottom {
+	height: 123px;
+	overflow: hidden;
+}
+#content div.text_bottom h3 {
+	padding: 3px 0 0;
+	background: none;
+}
+/****************************************************/
+/************** Gallery Images Mid ******************/
+/** all selectors must descend from div#template_4 **/
+/****************************************************/
+#template_5 div.gallery_section_vert {
+	width: 28%;
+	height: 270px;
+	overflow: hidden;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	display: inline;
+}
+
+#template_5 div.gallery_section_vert h3 {
+	background: none !important;
+	padding: 5px 0;
+}
+
+div.image_middle img {
+	width: 100px;
+	margin: 10px auto 0;
+	display: block;
+}
+.gallery_section_vert .text_block.client_edit {
+	background:none !important;
+}
+/****************************************************/
+/************** Gallery Images Top ******************/
+/** all selectors must descend from div#template_5 **/
+/****************************************************/
+#template_5 .text_left {
+	overflow: visible !important;
+}
+
+#template_5 div.gallery_section {
+	padding: 10px 0;
+	clear: both;
+	overflow: visible !important;
+}
+#template_5 div.image_right {
+	float: right;
+	width: 45%;
+	margin-left: 20px;
+}
+#template_5 div.image_left img {
+	margin-right: 20px;
+}
+#template_5 div.text_left {
+	float: right;
+	width: 45%;
+}
+#template_5 div.text_right h3, #template_5 div.text_right, #template_5 div.text_block {
+	background: none !important;
+}
+/* TEMPLATE 6 */
+#template_6 .text_right {
+	overflow: visible !important;
+}
+
+#template_6 div.gallery_section {
+	padding: 10px 0;
+	clear: both;
+	overflow: visible !important;
+}
+#template_6 div.image_left {
+	float: left;
+	width: 45%;
+	margin-right: 20px;
+}
+#template_6 div.image_left img {
+	margin-left: 20px;
+}
+#template_6 div.text_right {
+	float: left;
+	width: 45%;
+}
+#template_6 div.text_right h3, #template_6 div.text_right, #template_6 div.text_block {
+	background: none !important;
+}
+/****************************************************/
+/************** Gallery Images Mid ******************/
+/** all selectors must descend from div#template_7 **/
+/****************************************************/
+#template_7 {
+	text-align: center;
+}
+#template_7 h2 {
+	text-align: left;
+}
+#template_7 #text_1 {
+	text-align: left;
+}
+#template_7 img.client_edit {
+	margin: 3%;
+}
+/****************************************************/
+/************** Gallery Images Top ******************/
+/** all selectors must descend from div#template_8 **/
+/****************************************************/
+#template_8 #header_1 {
+	margin-bottom: 40px;
+}
+#template_8 div#extratext_1 {
+	overflow: hidden;
+	width: 100%;
+}
+#template_8 div.gallery_section_vert {
+	/*width: 162px;*/
+	width: 28%;
+	height: 250px;
+	overflow: hidden;
+	float: left;
+	margin-left: 20px;
+	text-align: center;
+	display: inline;
+}
+#content #template_8 h3 {
+	display: inline;
+	}
+div.image_top img {
+	width: 100px;
+	margin: auto;
+	display: block;
+}
+div.text_bottom {
+	height: 123px;
+	overflow: hidden;
+}
+#content div.text_bottom h3 {
+	padding: 3px 0 0;
+	background: none;
+}
+#template_8 #extratext_1 {
+	clear: both;
+	float: left;
+	margin: 15px 0;
+	overflow: hidden;
+}
+/****************************************************/
+/************** Gallery Images Uber *****************/
+/** all selectors must descend from div#template_9 **/
+/****************************************************/
+#template_9 #gallery_large {
+	text-align: center;
+}
+#template_9 #gallery_large img {
+	margin: 10px 0;
+}
+/****************************************************/
+/************** Gallery Images Uber *****************/
+/** all selectors must descend from div#template_9 **/
+/****************************************************/
+#template_10 #gallery_large, #template_11 #gallery_large {
+	text-align: center;
+}
+#template_10 #gallery_large img, #template_11 #gallery_large img {
+	margin: 5px;
+	width: 100px;
+	height: 100px;
+}
+/****************************************************/
+/************** Gallery Images Uber *****************/
+/** all selectors must descend from div#template_11 */
+/****************************************************/
+#template_11 #extratext_2 {
+	clear: both;
+	margin-top: 20px;
+}
+/****************************************************/
+/************** Gallery Images Top ******************/
+/** all selectors must descend from div#template_12 **/
+/****************************************************/
+#template_12 #header_1 {
+	margin-bottom: 40px;
+}
+#template_12 #gallery_large {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+#template_12 div.gallery_section_vert_odd {
+	width: 40%;
+	min-height: 320px;
+	height: auto !important;
+	height: 320px;
+	overflow: hidden;
+	float: left;
+	margin: 10px 5%;
+	display: inline;
+}
+#template_12 div.gallery_section_vert_even {
+	width: 40%;
+	min-height: 320px;
+	height: auto !important;
+	height: 320px;
+	overflow: hidden;
+	float: right;
+	margin: 10px 5%;
+	display: inline;
+}
+#content #template_12 h3 {
+	margin-top: 5px;
+	display: inline;
+	font-size: 14px !important;
+	}
+#template_12 #extratext_1 {
+	text-align: left;
+}
+#template_12 div.image_top img {
+	width: 200px;
+	margin: 0 auto 5px;
+	display: block;
+}
+#template_12 div.text_bottom {
+	height: 95px;
+	overflow: hidden;
+}

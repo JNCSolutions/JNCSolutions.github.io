@@ -1,0 +1,106 @@
+/****************************************************/
+/* Within this file (change the name to your plugin */
+/* name) you can change the styling of your plugin  */
+/* with ease. Like the javascript it will be added  */
+/* to the head automatically. If you do not require */
+/* extra styling you can delete this file.          */
+/****************************************************/
+
+#content form {
+	margin: 10px 0;
+}
+
+#content input[type="hidden"] {
+	border: 0;
+	margin: 0;
+}
+
+#content fieldset {
+	padding: 0 12px;
+}
+
+.form_action {
+	display: none;
+}
+
+#content form p {
+	width: auto;
+	clear: both;
+	padding: 0;
+	margin: 0;
+}
+
+#content form img#captcha_image {
+	border: 0;
+	width: 120px;
+	margin: 10px auto;
+	margin-bottom: 0;
+	padding: 2px;
+	display: block;
+	background: #FFF;
+}
+
+#content input#captcha {
+	width: 100px;
+}
+
+#content form input#reply {
+	width: 13px;
+}
+#content #template_1 #text_1 p span {
+	display: block;
+	margin-left: 20px;
+}
+
+/* Form Main Style */
+#content form label {
+	clear: both;
+	width: 25%;
+	display: block;
+	float: left;
+	margin: 10px 0;
+	font-weight: bold;
+}
+
+#content form input, #content form textarea {
+	display: block;
+	float: left;
+	margin: 10px 0;
+	width: 69%;
+	border-width: 1px;
+}
+
+#content img.errorImg {
+	position: relative;
+	top: 12px;
+	left: 8px;
+	float: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+/* Form Alternative */
+/*#content form label {
+	clear: both;
+	display: block;
+	margin: 20px 0 5px;
+	font-weight: bold;
+}
+
+#content form input, #content form textarea {
+	display: block;
+	float: left;
+	margin: 0 0 10px;
+	width: 90%;
+	border-width: 1px;
+}
+
+#content img.errorImg {
+	position: relative;
+	left: 8px;
+	float: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}*/

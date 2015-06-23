@@ -1,0 +1,494 @@
+/***********************************/
+/**** Simple Text Plugin Styles ****/
+/***********************************/
+
+h2#header_1 {
+	margin-bottom: 15px;
+	}
+img.rs_image_right {
+	float: right;
+	}
+img.rs_image_left {
+	float: left;
+	}
+.underline {
+	text-decoration: underline;
+	}
+#editor div.form_action {
+	display: none;
+	}
+#content_inner_wrapper .clickable {
+	z-index: 500 !important;
+	color: #2d2dda !important;
+	background: #dbddbd url(/plugins/simple_text/check.gif) top left repeat !important;
+	}
+#content .client_edit h3 {
+	text-align: left;
+	}
+/***************************************************/
+/************** Template Styles ********************/
+/******** Generic selectors first ******************/
+/***************************************************/
+/*.large_image {
+	width: 200px;
+	height: 200px;
+	}
+.med_image {
+	width: 160px;
+	height: 160px;
+	}
+.small_image {
+	width: 100px;
+	height: 100px;
+	}*/
+.float_right {
+	float: right;
+	}
+.float_left {
+	float: left;
+	}
+.clear_left {
+	clear: left;
+	}
+.clear_right {
+	clear: right;
+	}
+.clear_both {
+	clear: both;
+	}
+.large_image_column {
+	width: 220px;
+	}
+.small_image_column {
+	width: 120px;
+	margin: 10px 5px 20px 0;
+	display: inline;
+	}
+#image_row_bottom, #image_row_top, h2.copy_heading {
+	clear: both;
+	}
+/****************************************************/
+/**************** Image Top Right *******************/
+/** all selectors must descend from div#template_1 **/
+/****************************************************/
+div#template_1 div.large_image {
+	float: right;
+	width: 320px;
+	}
+#template_1 .text_block {
+	/*text-align: justify;*/
+	}
+#template_1 img#image_1 {
+	float: right;
+	margin-bottom: 10px;
+	}
+/****************************************************/
+/**************** Image Top Left ********************/
+/** all selectors must descend from div#template_2 **/
+/****************************************************/
+
+#template_2 .large_image_block img {
+	margin-top: 3px;
+	margin-right: 15px;
+	}
+/****************************************************/
+/*************** Two Images Right *******************/
+/** all selectors must descend from div#template_3 **/
+/****************************************************/
+
+
+
+#template_3 .large_image_block {
+	float: right;
+	}
+#template_3 .large_image_block img {
+	margin-bottom: 15px;
+	margin-left: 15px;
+	}
+#template_3 .text_block {
+	/*text-align: justify;*/
+	}
+div.large_image_block {
+	clear: both;
+	}
+/****************************************************/
+/**************** Two Images Left *******************/
+/** all selectors must descend from div#template_4 **/
+/****************************************************/
+#template_4 .large_image_column img {
+	margin-top: 4px;
+	margin-right: 15px;
+	}
+/****************************************************/
+/************** Three Images Left *******************/
+/** all selectors must descend from div#template_5 **/
+/****************************************************/
+#template_5 .small_image_column img {
+	width: 100px;
+	margin-top: 10px;
+	margin-right: 15px;
+	}
+#template_5 .small_image_column img#image_3 {
+	margin-bottom: 10px;
+	}
+#template_5 .text_block.client_edit {
+	display: inline;
+	}
+#template_5 .text_block.client_edit h3 {
+	display: block;
+	}
+/****************************************************/
+/************** Three Images Right ******************/
+/* all selectors must descend from div#template_15 **/
+/****************************************************/
+#template_15 .small_image_column img {
+	width: 100px;
+	margin-top: 35px;
+	margin-left: 15px;
+	}
+#template_15 .text_block.client_edit {
+	display: inline;
+	/*text-align: justify;*/
+	}
+#template_15 .text_block.client_edit h3 {
+	display: block;
+	}
+/****************************************************/
+/******** Image Top Left and Bottom Right ***********/
+/** all selectors must descend from div#template_6 **/
+/****************************************************/
+#template_6 #large_image_top img {
+	margin-top: 4px;
+	margin-right: 15px;
+}
+#template_6 #large_image_bottom img {
+	float: right;
+	margin-left: 15px;
+}
+/****************************************************/
+/********* Image Top Right and Bottom Left **********/
+/** all selectors must descend from div#template_7 **/
+/****************************************************/
+#template_7 #large_image_top img {
+	margin-top: 4px;
+	margin-left: 15px;
+}
+#template_7 #large_image_bottom img {
+	margin-top: 10px;
+	margin-right: 15px;
+	float: left;
+}
+/****************************************************/
+/*************** Two Images Bottom ******************/
+/** all selectors must descend from div#template_8 **/
+/****************************************************/
+
+/****************************************************/
+/**************** Two Images Top ********************/
+/** all selectors must descend from div#template_9 **/
+/****************************************************/
+#template_9 #image_row_top {
+	margin-top: 15px;
+	}
+#template_9 #text_1 {
+	clear: both;
+	margin-top: 20px;
+	}
+#template_9 #text_1, #template_9 #text_2, #template_9 #text_3, #template_9 #text_4 {
+	float: left;
+	width: 100%;
+	}
+/****************************************************/
+/**************** Three Images Top ******************/
+/** all selectors must descend from div#template_10 */
+/****************************************************/
+#template_10 #image_row_top {
+	margin: 15px 0;
+	float: left;
+	}
+#template_10 #image_row_top div.float_left {
+	margin: 0 28px;
+	display: inline;
+	}
+#template_10 #text_1 {
+	clear: both;
+	}
+/****************************************************/
+/************ Three Images Bottom *******************/
+/** all selectors must descend from div#template_11 */
+/****************************************************/
+#template_11 #image_row_bottom {
+	margin-top: 35px;
+	overflow: hidden;
+	text-align: center;
+	}
+#template_11 #image_row_bottom img {
+	margin: 0 28px;
+	}
+/****************************************************/
+/********** Three Images Top and Bottom *************/
+/** all selectors must descend from div#template_12 */
+/****************************************************/
+#template_12 #image_row_bottom {
+	margin-top: 35px;
+	}
+#template_12 #image_row_bottom div.float_left {
+	margin: 0 28px;
+	display: inline;
+	}
+#template_12 #image_row_top {
+	margin-top: 26px;
+	}
+#template_12 #image_row_top div.float_left {
+	margin: 0 28px;
+	display: inline;
+	}
+#template_12 img {
+	max-width: 100px;
+	margin: 5px 0;
+	}
+#template_12 #text_1 {
+	clear: both;
+	}
+/****************************************************/
+/**************** Corner Images *********************/
+/** all selectors must descend from div#template_13 */
+/****************************************************/
+#template_13 #small_image_top_left {
+	width: 20%;
+	height: 120px;
+	margin-top: 35px;
+	margin-right: 15px;
+	float: left;
+	}
+#template_13 #small_image_top_right {
+	width: 20%;
+	height: 120px;
+	margin-top: 35px;
+	margin-left: 15px;
+	float: right;
+	}
+#template_13 .text_block {
+	width: 52%;
+	float: left;
+	/*text-align: justify;*/
+	}
+#template_13 #small_image_bottom_left {
+	width: 20%;
+	height: 120px;
+	margin-top: 35px;
+	margin-right: 15px;
+	float: left;
+	clear: both;
+	}
+#template_13 #small_image_bottom_right {
+	width: 20%;
+	height: 120px;
+	margin-top: 35px;
+	margin-left: 15px;
+	float: right;
+	}
+/****************************************************/
+/********** Three Images Left and Right *************/
+/** all selectors must descend from div#template_14 */
+/****************************************************/
+#template_14 #small_image_column_left {
+	float: left;
+	}
+#template_14 #small_image_column_left img {
+	max-width: 100px;
+	margin-top: 40px;
+	margin-right: 15px;
+	}
+#template_14 #small_image_column_right {
+	float: right;
+	}
+#template_14 #small_image_column_right img {
+	max-width: 100px;
+	margin-top: 40px;
+	margin-left: 15px;
+	}
+#template_14 .text_block {
+	/*text-align: justify;*/
+	}
+/****************************************************/
+/********** Three Images Left and Right *************/
+/** all selectors must descend from div#template_16 */
+/****************************************************/
+#template_16 .large_image_block img {
+	margin-top: 4px;
+	margin-right: 15px;
+	float: left;
+	}
+#template_16 .large_image_block {
+	clear: both;
+	margin: 15px 0;
+	float: left;
+	width: 100%;
+	}
+/****************************************************/
+/********** Three Images Left and Right *************/
+/** all selectors must descend from div#template_17 */
+/****************************************************/
+#template_17 .large_image_block img {
+	margin-top: 4px;
+	margin-left: 15px;
+	float: right;
+	}
+#template_17 .large_image_block {
+	clear: both;
+	margin: 15px 0;
+	float: left;
+	width: 100%;
+	}
+#template_17 .text_block {
+	/*text-align: justify;*/
+	}
+/****************************************************/
+/********** Three Images Left and Right *************/
+/** all selectors must descend from div#template_18 */
+/****************************************************/
+#template_18 .large_image_block img {
+	margin-right: 15px;
+	float: left;
+	}
+#template_18 .large_image_block {
+	clear: both;
+	margin: 15px 0;
+	float: left;
+	width: 100%
+	}
+/****************************************************/
+/********** Three Images Left and Right *************/
+/** all selectors must descend from div#template_19 */
+/****************************************************/
+#template_19 .large_image_block img {
+	margin-top: 35px;
+	margin-left: 15px;
+	float: right;
+	}
+#template_19 .large_image_block {
+	clear: both;
+	margin-top: 15px;
+	}
+#template_19 .text_block {
+	/*text-align: justify;*/
+	}
+/****************************************************/
+/********** Three Images Left and Right *************/
+/** all selectors must descend from div#template_20 */
+/****************************************************/
+#template_20 .large_image_block .left_image img {
+	max-width: 100px;
+	margin-top: 35px;
+	margin-right: 15px;
+	float: left;
+	}
+#template_20 .large_image_block .right_image img {
+	max-width: 100px;
+	margin-top: 35px;
+	margin-left: 15px;
+	float: right;
+	}
+#template_20 .large_image_block {
+	clear: both;
+	margin-top: 15px;
+	}
+#template_20 .text_block {
+	/*text-align: justify;*/
+	}
+/****************************************************/
+/*************** One Image Right ********************/
+/** all selectors must descend from div#template_24 */
+/****************************************************/
+#template_24 .large_image {
+	margin-left: 15px;
+	}
+#template_24 #text_1 {
+	/*text-align: justify;*/
+	}
+/****************************************************/
+/*************** Four Images Large ******************/
+/** all selectors must descend from div#template_24 */
+/****************************************************/
+#template_25 #top_row #large_image_top_left {
+	float: left;
+	margin-bottom: 20px;
+}
+#template_25 #top_row #large_image_top_right {
+	float: right;
+	margin-bottom: 20px;
+}
+#template_25 #centre_row #text_1 {
+	clear: both;
+	margin-bottom: 20px;
+}
+#template_25 #bottom_row #large_image_bottom_left {
+	float: left;
+}
+#template_25 #bottom_row #large_image_bottom_right {
+	float: right;
+}
+/****************************************************/
+/*************** Four Images Large ******************/
+/** all selectors must descend from div#template_26 */
+/****************************************************/
+#template_26 #large_image_column_left img {
+	margin-bottom: 10px;
+}
+/****************************************************/
+/*************** Four Images Large ******************/
+/** all selectors must descend from div#template_27 */
+/****************************************************/
+#template_27 #large_image_column_right img {
+	margin-bottom: 10px;
+	float: right;
+}
+/****************************************************/
+/************* Large Image At The Top ***************/
+/** all selectors must descend from div#template_28 */
+/****************************************************/
+#template_28 #large_image_block img {
+	width: 100%;
+	margin: 5px auto 15px;
+	float: left;
+}
+#template_28 #text_1 {
+	clear: both;
+}
+
+
+#slideshow #slidesContainer {
+  margin:0 auto;
+  width:300px;
+  overflow:auto; /* allow scrollbar */
+  position:relative;
+}
+
+#slideshow #slidesContainer .slide {
+  margin:0 auto;
+  width:280px; /* reduce by 20 pixels to avoid horizontal scroll */
+
+}
+
+/**
+ * Slideshow controls style rules.
+ */
+.control {
+  display:block;
+  width:39px;
+  height:263px;
+  text-indent:-10000px;
+  position:absolute;
+  cursor: pointer;
+}
+#leftControl {
+  top:220px;
+  left:300px;
+  background:transparent url(images/control_left.png) no-repeat 0 0;
+}
+#rightControl {
+  top:220px;
+  right:-15px;
+  background:transparent url(images/control_right.png) no-repeat 0 0;
+}
